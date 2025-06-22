@@ -1,0 +1,109 @@
+{
+  "timestamp": "2025-06-22T13:17:56.319465",
+  "session_type": "advanced_training",
+  "starting_height": 1005.3,
+  "peak_height": 17444.661266374456,
+  "total_improvement": 16439.361266374457,
+  "duration_minutes": 0.1975552995999654,
+  "curriculum_stages": [
+    {
+      "stage_name": "Consistency Mastery",
+      "episodes_completed": 30,
+      "max_height": 1281.3705336144965,
+      "average_height": 1182.982800585023,
+      "consistency": 0.8683379120353485,
+      "improvements": 7
+    },
+    {
+      "stage_name": "Height Breakthrough",
+      "episodes_completed": 25,
+      "max_height": 1264.2826981109715,
+      "average_height": 1179.2137350795279,
+      "consistency": 0.869140029443111,
+      "improvements": 0
+    },
+    {
+      "stage_name": "Peak Performance",
+      "episodes_completed": 40,
+      "max_height": 1322.4815796828816,
+      "average_height": 1182.821826836814,
+      "consistency": 0.8289108748704439,
+      "improvements": 0
+    }
+  ],
+  "advanced_techniques": [
+    {
+      "technique": "Momentum Optimization",
+      "boost_factor": 1.15,
+      "episodes_tested": 20,
+      "peak_height": 2293.563266718282,
+      "average_improvement": 514.0172221206753,
+      "success_rate": 0.95
+    },
+    {
+      "technique": "Precision Landing",
+      "boost_factor": 1.25,
+      "episodes_tested": 20,
+      "peak_height": 4262.5832162579745,
+      "average_improvement": 1170.5804571948552,
+      "success_rate": 1.0
+    },
+    {
+      "technique": "Risk-Reward Balance",
+      "boost_factor": 1.2,
+      "episodes_tested": 20,
+      "peak_height": 7918.50978601071,
+      "average_improvement": 1760.1711653576717,
+      "success_rate": 1.0
+    },
+    {
+      "technique": "Advanced Combo System",
+      "boost_factor": 1.35,
+      "episodes_tested": 20,
+      "peak_height": 17444.661266374456,
+      "average_improvement": 5185.281526793448,
+      "success_rate": 1.0
+    }
+  ],
+  "session_data": {
+    "start_time": 1750578464.465861,
+    "sessions_completed": 0,
+    "peak_performance": 17444.661266374456,
+    "consistency_score": 0.0,
+    "advanced_techniques_tested": [
+      {
+        "technique": "Momentum Optimization",
+        "boost_factor": 1.15,
+        "episodes_tested": 20,
+        "peak_height": 2293.563266718282,
+        "average_improvement": 514.0172221206753,
+        "success_rate": 0.95
+      },
+      {
+        "technique": "Precision Landing",
+        "boost_factor": 1.25,
+        "episodes_tested": 20,
+        "peak_height": 4262.5832162579745,
+        "average_improvement": 1170.5804571948552,
+        "success_rate": 1.0
+      },
+      {
+        "technique": "Risk-Reward Balance",
+        "boost_factor": 1.2,
+        "episodes_tested": 20,
+        "peak_height": 7918.50978601071,
+        "average_improvement": 1760.1711653576717,
+        "success_rate": 1.0
+      },
+      {
+        "technique": "Advanced Combo System",
+        "boost_factor": 1.35,
+        "episodes_tested": 20,
+        "peak_height": 17444.661266374456,
+        "average_improvement": 5185.281526793448,
+        "success_rate": 1.0
+      }
+    ],
+    "improvements": []
+  }
+}

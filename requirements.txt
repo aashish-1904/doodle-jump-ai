@@ -1,0 +1,38 @@
+# Core Deep Learning
+torch>=2.7.1
+torchvision>=0.19.1
+
+# Reinforcement Learning
+gymnasium>=1.1.1
+stable-baselines3>=2.4.0
+
+# Computer Vision & Image Processing
+opencv-python>=4.10.0
+pillow>=10.4.0
+imageio>=2.37.0
+
+# Scientific Computing
+numpy>=1.24.3
+scipy>=1.11.0
+
+# Data Visualization
+matplotlib>=3.10.3
+
+# Configuration & Data
+pyyaml>=6.0.2
+json5>=0.9.0
+
+# Game Control
+keyboard>=0.13.5
+
+# Progress Tracking
+tqdm>=4.66.0
+
+# Development & Testing
+pytest>=8.0.0
+black>=24.0.0
+flake8>=7.0.0
+
+# Utilities
+psutil>=5.9.0
+cloudpickle>=3.1.1 

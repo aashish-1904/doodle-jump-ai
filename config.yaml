@@ -1,0 +1,70 @@
+# Doodle Jump AI Agent Configuration
+
+# Game Settings
+game:
+  name: "Doodle Jump"
+  resolution: [1920, 1080]  # Target screen resolution
+  game_region: [0, 0, 1920, 1080]  # Screen capture region
+  fps_target: 60
+  
+# Screen Capture Settings
+capture:
+  method: "mss"  # Screen capture method
+  monitor: 1  # Monitor to capture (1 = primary)
+  quality: "high"
+  
+# Computer Vision Settings
+vision:
+  template_matching_threshold: 0.8
+  edge_detection_threshold: [50, 150]
+  contour_min_area: 50
+  platform_colors:
+    green: [[40, 50, 50], [80, 255, 255]]    # Normal platforms
+    brown: [[10, 50, 50], [20, 255, 255]]    # Breaking platforms
+    blue: [[100, 50, 50], [130, 255, 255]]   # Moving platforms
+    white: [[0, 0, 200], [180, 30, 255]]     # Ice platforms
+  
+# Reinforcement Learning Settings
+rl:
+  algorithm: "PPO"  # Proximal Policy Optimization
+  learning_rate: 0.0003
+  batch_size: 64
+  buffer_size: 100000
+  gamma: 0.99  # Discount factor
+  tau: 0.005  # Soft update coefficient
+  
+# Training Settings
+training:
+  episodes: 5000
+  max_steps_per_episode: 10000
+  save_frequency: 100  # Save model every N episodes
+  evaluation_frequency: 50
+  
+# Game Actions
+actions:
+  movement: ["left", "right", "no_move"]
+  special: ["tilt_left", "tilt_right", "shoot"]  # For special power-ups
+  
+# Reward System
+rewards:
+  height_gain: 1          # Reward per unit height gained
+  platform_land: 50       # Reward for successfully landing on platform
+  power_up_collect: 100   # Reward for collecting power-ups
+  enemy_avoid: 30         # Reward for avoiding enemies
+  fall_penalty: -500      # Penalty for falling/dying
+  special_platform: 150   # Bonus for using special platforms
+  high_score: 1000        # Bonus for beating personal best
+  
+# Progress Tracking
+progress:
+  save_path: "./data/doodle_progress.json"
+  backup_frequency: 10  # Backup every N games
+  metrics_to_track:
+    - "max_height"
+    - "average_height"
+    - "games_played"
+    - "platforms_landed"
+    - "power_ups_collected"
+    - "total_playtime"
+    - "high_score"
+    - "death_causes" 
