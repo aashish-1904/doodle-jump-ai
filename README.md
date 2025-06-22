@@ -455,8 +455,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📞 Contact
 
 - **Author**: Aashish Kumar
-- **GitHub**: [@yourusername](https://github.com/yourusername)
-- **Email**: your.email@example.com
+- **GitHub**: [@aashish-1904](https://github.com/aashish-1904)
+- **Email**: aashishkumar19042002@gmail.com
 
 ---
 
