@@ -464,8 +464,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **🚀 From 922 to 17,444.7 - The journey of AI mastery! 🏆**
 
-[![GitHub stars](https://img.shields.io/github/stars/yourusername/doodle-jump-ai.svg?style=social)](https://github.com/yourusername/doodle-jump-ai/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/yourusername/doodle-jump-ai.svg?style=social)](https://github.com/yourusername/doodle-jump-ai/network)
+[![GitHub stars](https://img.shields.io/github/stars/yourusername/doodle-jump-ai.svg?style=social)](https://github.com/aashish-1904/doodle-jump-ai/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/yourusername/doodle-jump-ai.svg?style=social)](https://github.com/aashish-1904/doodle-jump-ai/network)
 
 *Made with ❤️ and lots of reinforcement learning*
 
